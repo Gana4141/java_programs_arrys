@@ -13,7 +13,7 @@ public class DublicateCharacter {
 
         Map<Character, Integer> map = new LinkedHashMap<>();
 
-        // Count characters
+        
         for (char ch : input.toCharArray()) {
 
             if (ch != ' ') {
